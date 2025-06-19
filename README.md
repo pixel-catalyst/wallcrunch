@@ -1,8 +1,12 @@
-# 🔥 HotCrunch
+# 🔥 WallCrunch
+
+A Dynamic Wallpaper Creation App that helps you create dynamic wallpapers for your GNOME Environment in just 3 clicks.
+
+---
 
 A modern desktop application built with Electron, Next.js, TypeScript, Tailwind CSS, and shadcn/ui.
 
-## 🚀 Features
+## 🚀 TechStack Features
 
 - **Electron** - Cross-platform desktop app framework
 - **Next.js 15** - React framework with App Router
