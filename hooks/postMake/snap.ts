@@ -22,9 +22,9 @@ const postMakeSnap: ForgeMutatingHookFn<'postMake'> = async (config, makeResults
             dest: path.resolve(__dirname, '../../snap-out'),
             arch: 'amd64',
             options: {
-                name: 'dywall',
+                name: 'wallcrunch',
                 summary: 'Create GNOME dynamic wallpapers',
-                description: 'DyWall creates GNOME-compatible dynamic wallpapers with ease.',
+                description: 'WallCrunch creates GNOME-compatible dynamic wallpapers with ease.',
                 grade: 'devel',
                 confinement: 'strict',
             },

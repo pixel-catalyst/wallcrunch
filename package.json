@@ -1,5 +1,5 @@
 {
-  "name": "dywall",
+  "name": "wallcrunch",
   "version": "1.0.0",
   "description": "Create your Custom Dynamic Wallpapers for GNome in just 2 steps",
   "main": ".webpack/main",

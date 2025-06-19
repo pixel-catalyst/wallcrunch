@@ -9,13 +9,13 @@ import path from 'path';
 
 const config: ForgeConfig = {
   packagerConfig: {
-    name: 'DyWall',
-    executableName: 'dywall',
+    name: 'WallCrunch',
+    executableName: 'wallcrunch',
     // This is the primary icon for the bundled app.
     // It's good practice to provide .ico (Windows), .icns (macOS), and .png (Linux)
     // and let electron-packager pick. If you only provide .png, it will work for Linux.
     icon: path.join(__dirname, 'assets', 'icons', 'icon'), // Omit extension for cross-platform
-    appBundleId: 'com.dywall.app',
+    appBundleId: 'com.wallcrunch.app',
     appCategoryType: 'public.app-category.utilities',
   },
   rebuildConfig: {},
@@ -27,9 +27,9 @@ const config: ForgeConfig = {
         // 🔥 Add icon here specifically for the .deb package metadata
         icon: path.join(__dirname, 'assets', 'icons', 'icon.png'),
         // You might also want to set other options for MakerDeb
-        productName: 'DyWall', // Important for deb package name
-        description: 'DyWall creates GNOME-compatible dynamic wallpapers with ease.',
-        name: "DyWall",
+        productName: 'WallCrunch', // Important for deb package name
+        description: 'WallCrunch creates GNOME-compatible dynamic wallpapers with ease.',
+        name: "WallCrunch",
         categories: ['Utility', 'Settings'],
         productDescription: 'Create GNOME dynamic wallpapers',
         suggests: ['gnome-shell', 'gnome-tweaks'],
