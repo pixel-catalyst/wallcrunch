@@ -1,47 +1,28 @@
-# 🚀 Electron React TypeScript Tailwind Starter
+# Play - Free Tailwind CSS Template for Startup, Apps and SaaS
 
-This starter repository provides a ready-to-use project template for building cross-platform desktop applications with Electron, React, TypeScript, and Tailwind CSS, utilizing Electron Forge for easy packaging and publishing.
+Play is an open-source and free Tailwind CSS template co-created by TailGrids and UIdeck. This template specially crafted for SaaS, startup, business and software website.
+Play crafted in a way that you can use with almost all sort of web project. This is Tailwind CSS template built using [TailGrids](https://tailgrids.com/) components.
 
-## Features
-- Electron for building cross-platform desktop applications
-- React for creating scalable, component-based UIs
-- TypeScript for strongly-typed and maintainable JavaScript code
-- Tailwind CSS for utility-first styling and rapid UI development
-- Electron Forge for simple packaging and publishing of Electron applications
+### This template crafted using 🥞 [TailGrids](https://tailgrids.com/) UI components
 
+### [🚀 View Demo](https://play-tailwind.tailgrids.com/)
 
-## Getting Started
-Clone the repository:
-```bash
-git clone https://github.com/rostislavjadavan/electron-react-typescript-tailwind-starter.git
-```
+### [⬇️ Download Now](https://links.tailgrids.com/play-download)
 
-Navigate to the project folder:
-```bash
-cd electron-react-typescript-tailwind-starter
-```
+[![play-tailwind](https://cdn.tailgrids.com/play-tailwind.jpg)](https://play-tailwind.tailgrids.com/)
 
-Install dependencies:
-```bash
-npm install
-```
+## 📃 License
 
-Start the development server:
-```bash
-npm run start
-```
+Play is an open-source template, you can use it with your personal or commercial projects without any attribution or backlink.
 
-# Package the project
+## 💙 Support
 
-Package the project as an Electron app:
+You can always support this project by [Starring🌟 This Repository](https://github.com/tailgrids/play-tailwind)
+and sharing with friends. Also open an issue if you find bug or feel free to contribute by pull requests after fixing any issue or adding more values.
 
-```bash
-npm run make
-```
-
-For detailed configuration visit: https://www.electronforge.io
-
-## Customization
-
-You can easily customize the project to suit your needs by modifying the source code within the `src` directory. The project is set up with a simple example that you can use as a starting point for your application.
-
+### Update Logs: 2.0 - Nov 2023
+- Design refresh
+- New marketing section
+- Dark mode support
+- Code and performance optimization
+- Updated dependencies

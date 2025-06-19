@@ -1,0 +1,2 @@
+(()=>{"use strict";var e={288:e=>{e.exports=require("electron")}},r={};function n(o){var t=r[o];if(void 0!==t)return t.exports;var i=r[o]={exports:{}};return e[o](i,i.exports,n),i.exports}(()=>{const e=n(288);e.contextBridge.exposeInMainWorld("electronAPI",{createWallpaper:r=>e.ipcRenderer.invoke("create-wallpaper",r)}),e.contextBridge.exposeInMainWorld("Electron",{ipcRenderer:{invoke:(r,n)=>e.ipcRenderer.invoke(r,n)}})})()})();
+//# sourceMappingURL=preload.js.map
