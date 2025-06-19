@@ -3,6 +3,7 @@ import type { ForgeConfig } from '@electron-forge/shared-types';
 import { MakerDeb } from '@electron-forge/maker-deb';
 import { MakerSquirrel } from '@electron-forge/maker-squirrel';
 import { MakerZIP } from '@electron-forge/maker-zip';
+import { WebpackPlugin } from '@electron-forge/plugin-webpack';
 // Removed MakerSnap for current focus
 import path from 'path';
 
@@ -43,7 +44,24 @@ const config: ForgeConfig = {
     }),
     */
   ],
-  plugins: [],
+  plugins: [
+    new WebpackPlugin({
+      mainConfig: './webpack.main.config.js',
+      renderer: {
+        config: './webpack.renderer.config.js',
+        entryPoints: [
+          {
+            html: './src/index.html',
+            js: './src/renderer.ts',
+            name: 'main_window',
+            preload: {
+              js: './src/preload.ts',
+            },
+          },
+        ],
+      },
+    }),
+  ],
   hooks: {},
 };
 
