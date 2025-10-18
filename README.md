@@ -359,7 +359,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Ashwin Sharma**
 - Email: ashwin.aksharma.p@gmail.com
 - GitHub: [@pixel-catalyst](https://github.com/pixel-catalyst)
-- Website: [snippetsofpassion.vercel.app](https://snippetsofpassion.vercel.app)
+- Website: [pixel-catalyst.xyz](https://pixel-catalyst.xyz)
 
 ## 🌟 Acknowledgments
 
